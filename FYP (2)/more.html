@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>room</title>
+	
+	<!--link to css -->
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- icon -->
+	<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!-- navbar -->
+	<header>
+		<div class="nav container">
+		<!-- logo -->
+			<a href="index.html" class="logo"><i class='bx bx-home'></i>EzHousing</a>
+			<!-- menu -->
+			<input type="checkbox" name="" id="menu">
+			<label for="menu"> <i class='bx bx-menu' id="menu-icon"></i></label>
+			<!--navlist-->
+			<ul class="navbar">
+				
+			</ul>
+	
+			<!-- login -->
+			<a href="login.html" class="btn">Login</a>
+		</div>
+	</header>
+	<div class="heading">
+	<span>Recent</span>
+	<h2>Our featured properties</h2>
+<p>Fill out the form</p>
+</div>
+	<form action="submit_form.php" method="post" enctype="multipart/form-data">
+   <label for="placename">Place Name:</label>
+  <input type="text" id="placename" name="placename" required>
+		
+	<label for="placename">Monthly Fee:</label>
+  <input type="text" id="fee" name="fee" required>
+		
+	<label for="placename">Distric:</label>
+  <input type="text" id="distric" name="distric" required>
+
+  <label for="description">Description:</label>
+  <textarea id="description" name="description" rows="4" required></textarea>
+
+  <label for="contact">Contact Number:</label>
+  <input type="text" id="contact" name="contact" required>
+
+  <label for="numbeds">Number of Beds:</label>
+  <input type="number" id="numbeds" name="numbeds" required>
+
+  <label for="numbathrooms">Number of Bathrooms:</label>
+  <input type="number" id="numbathrooms" name="numbathrooms" required>
+
+  <label for="placeimage1">Picture 1 of the Place:</label>
+  <input type="file" id="placeimage1" name="placeimage1" accept="image/*" required>
+  
+  <label for="placeimage2">Picture 2 of the Place:</label>
+  <input type="file" id="placeimage2" name="placeimage2" accept="image/*" required>
+  
+  <label for="placeimage3">Picture 3 of the Place:</label>
+  <input type="file" id="placeimage3" name="placeimage3" accept="image/*" required>
+
+  <label for="thumbnail">Thumbnail Picture:</label>
+  <input type="file" id="thumbnail" name="thumbnail" accept="image/*" required>
+
+  <input type="submit" value="Submit">
+</form>
+	
+</section> 
+<!--footer-->
+<section class="footer">
+<div class="footer-container container"><h2>R.state</h2>
+	<div class="footer-box">
+	<h3>quick links</h3>
+	<a href="#">agency</a>
+	<a href="#">building</a>
+	<a href="#">rates</a>
+	</div>
+	<div class="footer-box">
+	<h3>contact</h3>
+	<a href="#">012-3456789</a>
+	<a href="#">yourmail@gmail.com</a>
+	<div class="social">
+		<a href="#"><i class='bx bx1-facebook'></i></a>
+		<a href="#"><i class='bx bx1-twitter'></i></a>
+		<a href="#"><i class='bx bx1-instagram'></i></a>
+		</div>
+	</div>
+	</div>
+</section>
+<!-- copyright-->
+<div class="copyright">
+<p>&#169; CarpoolVenom all right</p></div>
+</body>
+</html>

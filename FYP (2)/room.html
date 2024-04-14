@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>room</title>
+	
+	<!--link to css -->
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- icon -->
+	<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!-- navbar -->
+	<header>
+		<div class="nav container">
+		<!-- logo -->
+			<a href="index.html" class="logo"><i class='bx bx-home'></i>EzHousing</a>
+			<!-- menu -->
+			<input type="checkbox" name="" id="menu">
+			<label for="menu"> <i class='bx bx-menu' id="menu-icon"></i></label>
+			<!--navlist-->
+			<ul class="navbar">
+				
+			</ul>
+	
+			<!-- login -->
+			<a href="login.html" class="btn">Login</a>
+		</div>
+	</header>
+	<!-- First row of pictures -->
+<div class="picture-container">
+  <img src="img/slide1.jpg" alt="Picture 1">
+  <img src="img/slide2.jpg" alt="Picture 2">
+  <img src="img/slide3.jpeg" alt="Picture 3">
+</div>
+	
+<script>
+  // JavaScript function to transition to the next slide
+  var slideIndex = 0;
+  showSlide(slideIndex); // Show the first slide initially
+
+  function nextSlide() {
+    slideIndex++;
+    if (slideIndex >= document.getElementsByClassName("mySlides").length) {
+      slideIndex = 0; // Reset to the first slide if at the end
+    }
+    showSlide(slideIndex);
+  }
+
+  function showSlide(index) {
+    var slides = document.getElementsByClassName("mySlides");
+    for (var i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; // Hide all slides
+    }
+    slides[index].style.display = "block"; // Show the selected slide
+  }
+</script>
+	
+	<section class="about container" id="about">
+<div class="about-img">
+	<img src="img/shamelin.jpg" alt="">
+</div>
+<div class="about-text">
+	<span>Description</span>
+	<h2>Shamelin star<br>Cappella/Rigel</h2>
+	<p>✔ Spacious three-bedroom house with a cozy ambiance.</p>	<p>Two well-appointed bathrooms, ensuring convenience for residents and guests.</p>
+	<p>✔ A generously sized living room, perfect for gatherings and relaxation.</p>
+	<p>✔ Fully equipped kitchen with modern appliances, including stove, refrigerator, microwave, and dishwasher.</p>
+	<p>✔ Ample cabinet and countertop space for storage and meal preparation.</p>
+	<p>✔ Dedicated laundry area featuring a washing machine for added convenience.</p>
+	<p>✔ Thoughtfully designed layout promoting comfortable living and ease of movement.</p>
+	<p>✔ Tastefully decorated interiors with neutral tones, creating a welcoming atmosphere.</p>
+	<p>✔ Well-lit rooms with large windows allowing plenty of natural light.</p>
+	<p>✔ Located in a desirable neighborhood with easy access to amenities and transportation options.</p>
+	<h2> Interested ? </h2>
+<a href="https://wa.me/6017818490" class="btn">Contact Now</a>
+	</div>
+</section>
+<!--Newx-->
+<section class="newsletter container">
+	
+</section> 
+<!--footer-->
+<section class="footer">
+<div class="footer-container container"><h2>R.state</h2>
+	<div class="footer-box">
+	<h3>quick links</h3>
+	<a href="#">agency</a>
+	<a href="#">building</a>
+	<a href="#">rates</a>
+	</div>
+	<div class="footer-box">
+	<h3>contact</h3>
+	<a href="#">012-3456789</a>
+	<a href="#">yourmail@gmail.com</a>
+	<div class="social">
+		<a href="#"><i class='bx bx1-facebook'></i></a>
+		<a href="#"><i class='bx bx1-twitter'></i></a>
+		<a href="#"><i class='bx bx1-instagram'></i></a>
+		</div>
+	</div>
+	</div>
+</section>
+<!-- copyright-->
+<div class="copyright">
+<p>&#169; CarpoolVenom all right</p></div>
+</body>
+</html>

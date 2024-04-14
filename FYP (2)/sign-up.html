@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Signup</title>
+	
+	<!--link to css -->
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- icon -->
+	<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!-- navbar -->
+	<header>
+		<div class="nav container">
+		<!-- logo -->
+			<a href="index.html" class="logo"><i class='bx bx-home'></i>EzHousing</a>
+	
+			<!--login -->
+			<a href="login.html" class="btn">login</a>
+		</div>
+	</header>
+<!--signup-->
+	<div class="login container">
+	<div class="login-container">
+		<h2>Welcome , let's get started</h2>
+		<!--login form-->
+		<form action="connect.php" method="post">
+		<span>Full name</span>
+		<input type="text" name="fullname" id="fullname" placeholder="your name" required>
+		<span>enter your student ID</span>
+		<input type="id" name="id" id="id" placeholder="your student id" required>
+		<span>phone</span>
+		<input type="tel" name="number" id="number" placeholder="enter number" required>
+		<span>Enter password</span>
+		<input type="password" name="password" id="password" placeholder="password" required>
+		<input type="submit" value="signup" class="buttom">
+			<a href="login.html">already have account</a>
+		</form>
+		
+		</div>
+		<!--login image-->
+		<div class="login-image">
+		<img src="img/register.jpg" alt="">
+		</div>
+	</div>
+<!--footer-->
+<section class="footer">
+<div class="footer-container container"><h2>R.state</h2>
+	<div class="footer-box">
+	<h3>quick links</h3>
+	<a href="#">agency</a>
+	<a href="#">building</a>
+	<a href="#">rates</a>
+	</div>
+	<div class="footer-box">
+	<h3>contact</h3>
+	<a href="#">012-3456789</a>
+	<a href="#">yourmail@gmail.com</a>
+	<div class="social">
+		<a href="#"><i class='bx bx1-facebook'></i></a>
+		<a href="#"><i class='bx bx1-twitter'></i></a>
+		<a href="#"><i class='bx bx1-instagram'></i></a>
+		</div>
+	</div>
+	</div>
+</section>
+<!-- copyright-->
+<div class="copyright">
+<p>&#169; CarpoolVenom all right</p></div>
+</body>
+</html>
